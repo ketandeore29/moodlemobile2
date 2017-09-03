@@ -55,7 +55,7 @@ function getStorageAndReport(reportUrl, db) {
 function sendErrorReport(msg, url, lineNumber) {
     url = url || "";
     lineNumber = lineNumber || 0;
-    var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
+    var reportUrl = 'http://learn.lsdb.co.uk/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
                     '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                     encodeURIComponent(appVersion) + '&bg=1';
 
