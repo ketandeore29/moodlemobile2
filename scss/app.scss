@@ -212,6 +212,24 @@ $ionicons-font-path: "../lib/ionic/release/fonts" !default;
     }
   }
 }
+// custom css mobile app.
+.bar-side-menu {
+   background-color: #1d2057;
+ }
+ 
+ .bar-content {
+   background-color: #1d2057;
+ }
+ 
+ .button.button-positive {
+   border-color: #1d2057;
+   background-color: #1d2057;
+    color: #fff;
+ } 
+ 
+ .item-divider {
+   background-color: #fafafa;
+ }
 
 // Include all of Moodle Mobile.
 @import "www/build/mm.bundle.scss";
